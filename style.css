@@ -1,0 +1,78 @@
+@@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(162deg 38% 46%);}
+
+main {
+    justify-content: center;
+    background-color: white;
+    width: 33rem;
+    height: 27rem;
+    margin-top: 5rem;
+    position: relative;
+    overflow:
+    hidden ;
+}
+
+.simple {
+    display: flex;
+    align-items: spa;
+    justify-content: space-between;
+    margin-left: 4rem;
+    column-gap: 5px;
+    margin-top: 2.5rem;
+}
+
+.account {
+    margin-right: 4rem;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: .2rem;
+}
+
+.account:hover {
+box-shadow: -1px 1px 18px 5px rgba(0,0,0,0.3);
+}
+
+.order {
+    margin-left: 4rem;
+    color: grey;
+    font-size: small;}
+
+    .chap {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .vintage {
+        color: grey;
+        font-size: medium;
+    }
+
+    .seven {
+        font-size: large;
+    }
+
+    .Total {
+        color: rgb(51, 58, 58);
+        font-size: large;
+    }
+
+    .bicycle {
+        height: 20rem;
+        width: 33rem;
+        position:absolute;
+        top: 12.5rem;
+        text-align: center;
+    }
